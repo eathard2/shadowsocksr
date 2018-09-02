@@ -11,7 +11,7 @@ Server
 ### Install
 
 Debian / Ubuntu:
-
+    apt-get update && apt-get upgrade && apt-get dist-upgrade
     apt-get install git
     git clone https://github.com/shadowsocksr/shadowsocksr.git
 
@@ -33,7 +33,7 @@ move to "~/shadowsocksr", then run:
 
 move to "~/shadowsocksr/shadowsocks", then run:
 
-    python3 server.py -p 443 -k passWe0#2;Flord -m aes-128-cfb -O auth_aes128_md5 -o tls1.2_ticket_auth_compatible -d start
+    python3 server.py -p 443 -k passWe0#2Flord -m aes-128-cfb -O auth_aes128_md5 -o tls1.2_ticket_auth_compatible -d start
 
 Check all the options via `-h`.
 
